@@ -92,10 +92,22 @@ ul {
 .link-menu .link {
   text-decoration: none;
   color: var(--text-primary-color);
+  position: relative;
 }
 .link-menu .link:hover,
 .link-menu .link:focus {
   color: var(--object-primary-background-color);
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 28px;
+  height: 4px;
+  width: 100%;
+  background-color: var(--object-primary-background-color);
+  border-radius: 2px;
 }
 .top-contacts {
   display: flex;
