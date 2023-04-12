@@ -81,6 +81,7 @@ ul {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+  position: relative;
 }
 .navigation .link-menu {
   display: flex;
@@ -92,7 +93,6 @@ ul {
 .link-menu .link {
   text-decoration: none;
   color: var(--text-primary-color);
-  position: relative;
 }
 .link-menu .link:hover,
 .link-menu .link:focus {
@@ -103,9 +103,9 @@ ul {
   content: "";
   position: absolute;
   display: block;
-  top: 28px;
+  bottom: 0;
   height: 4px;
-  width: 100%;
+  width: 58px;
   background-color: var(--object-primary-background-color);
   border-radius: 2px;
 }
