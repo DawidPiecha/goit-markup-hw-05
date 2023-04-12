@@ -99,7 +99,17 @@ ul {
   color: var(--object-primary-background-color);
 }
 
-.active::after {
+.active-index::after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 0;
+  height: 4px;
+  width: 53px;
+  background-color: var(--object-primary-background-color);
+  border-radius: 2px;
+}
+.active-portfolio::after {
   content: "";
   position: absolute;
   display: block;
