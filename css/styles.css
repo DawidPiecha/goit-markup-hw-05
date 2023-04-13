@@ -94,6 +94,9 @@ ul {
 .link-menu .link {
   text-decoration: none;
   color: var(--text-primary-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-menu .link:hover,
 .link-menu .link:focus {
@@ -137,6 +140,9 @@ ul {
   text-decoration: none;
   display: flex;
   column-gap: 10px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .top-contacts .contact-link:hover,
 .top-contacts .contact-link:focus {
@@ -339,6 +345,9 @@ ul {
   fill: var(--social-links-primary-icon-color);
   background-color: var(--object-secondary-background-color);
   padding: 12px;
+  transition-property: fill, background-color, border-radius;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .teammates-social-link:hover,
@@ -373,6 +382,9 @@ ul {
   border: 1px solid var(--social-links-primary-icon-color);
   border-radius: 4px;
   padding: 17.71px 32px 14.25px 32px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-customers-list-item:hover,
 .our-customers-list-item:focus {
@@ -427,6 +439,9 @@ ul {
   text-decoration: none;
   font-style: normal;
   gap: 9px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .lower-contacts .lower-link:hover,
 .lower-contacts .lower-link:focus {
@@ -455,6 +470,9 @@ ul {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   padding: 12px;
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-links-link:hover,
@@ -493,6 +511,9 @@ ul {
   letter-spacing: 0.06em;
   cursor: pointer;
   padding: 6px 22px;
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Pseudo-classes hover and focus change font color, buttons' background and make a shadow for buttons*/
 .portfolio-button:hover,
@@ -537,6 +558,11 @@ ul {
   border-right: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
   padding: 4px 24px 20px;
+}
+.portfolio-lower-section-item {
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-lower-section-item:hover,
 .portfolio-lower-section-item:focus {
