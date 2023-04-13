@@ -22,6 +22,7 @@
   --social-links-secondary-icon-color: #ffffff;
   --social-links-icon-hover-color: #ffffff;
   --social-links-primary-background-color: #2196f3;
+  --image-title-background-color: rgba(47, 48, 58, 0.8);
 }
 * {
   margin: 0;
@@ -260,6 +261,25 @@ ul {
 }
 .what-we-do-list-image {
   display: block;
+}
+.image-with-title {
+  position: relative;
+}
+.image-title {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 27px 0;
+  background-color: var(--image-title-background-color);
+  color: var(--text-tertiary-color);
 }
 /* Nasz zespół section in index.html*/
 .teammates {
