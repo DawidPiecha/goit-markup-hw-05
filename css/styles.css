@@ -479,7 +479,7 @@ ul {
 .footer-social-links-link:hover,
 .footer-social-link:focus {
   fill: var(--social-links-icon-hover-color);
-  background-color: #2196f3;
+  background-color: var(--social-links-primary-background-color);
   border-radius: 50%;
 }
 /* buttons of a list in portfolio.html*/
